@@ -2,7 +2,17 @@
 function Nav() {
     return (
       <>
-       <h1>Nav</h1>
+       <ul>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Reserve Dining</a>
+        </li>
+        <li>
+            <a href="">Submit Dining Reservation</a>
+        </li>
+       </ul>
       </>
     );
   }
