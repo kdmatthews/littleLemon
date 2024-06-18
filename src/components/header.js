@@ -1,9 +1,10 @@
+
 function Header(){
     return(
-        <>
-        <h2>Header</h2>
-        <img src="littlelemonlogo.jpg" alt="Little Lemon Logo with lemon image" />
-        </>
+        <header className="header-container">
+        <h1>Little Lemon</h1>
+        <h2>Make a Reservation</h2>
+        </header>
     );
 };
 

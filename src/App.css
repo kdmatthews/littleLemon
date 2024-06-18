@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  height: 70px;
+  width: 250px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+.nav-container{
+  display: grid;
+  grid-template-columns:100px 300px 100px;
+  grid-auto-rows: minmax(5px, auto);
+}
+
+.navlinks{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-container{
+  display: grid;
+  padding: 5px;
+
+}
+
+.header-container{
+  background-color: #495E57;
+  padding: 2px;
+  margin-left: 0px;
+}
+h1{
+  color: #F4CE14;
+  font-family: Markazi;
+  font-size: 64px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+h2{
+  color: white;
+  font-family: Markazi;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
