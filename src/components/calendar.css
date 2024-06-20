@@ -1,0 +1,25 @@
+.calendar-container {
+    max-width: 500px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 0 1px grey, 0 1px 3px 0 grey;
+  }
+
+.june-container {
+    font-size: 1.2rem;
+    color: #4f4f4f;
+}
+
+.weekday-container {
+    display: flex;
+}
+
+.weekday{
+    display: block;
+    flex: 1 0 0%;
+    padding: 0, 8rem;
+    background: transparent;
+    font-size: 1.2rem;
+    color: blue;
+    text-align: center;
+}

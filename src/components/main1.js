@@ -7,7 +7,9 @@ function Main(){
     return (
         <>
         <main className="main-container">
+        <div className="calendar">
         <Calendar/>
+        </div>
         <Time/>
         <Party/>
         <Form/>

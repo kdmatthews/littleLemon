@@ -62,11 +62,15 @@
 }
 
 .main-container{
-  display: grid;
-  padding: 5px;
+  text-align: center;
 
 }
 
+.calendar{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
 .header-container{
   background-color: #495E57;
   padding: 2px;
@@ -87,3 +91,4 @@ h2{
   margin-top: 0px;
   margin-left: 5px;
 }
+
