@@ -2,16 +2,15 @@
 import './App.css';
 import Nav from './components/nav';
 import Header from './components/header';
-import Main from './components/main1';
+import Bookings from './components/Bookings';
 import Footer from './components/footer';
+import Main from './components/Main';
 
 function App() {
   return (
     <>
       <Nav/>
-      <Header/>
       <Main/>
-      <Footer/>
     </>
   );
 }

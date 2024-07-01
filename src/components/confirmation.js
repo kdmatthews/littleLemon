@@ -1,7 +1,7 @@
 function Confirmation(){
     return(
         <>
-        confirmation
+        <h1>Booking has been confirmed!</h1>
         </>
     );
 };
