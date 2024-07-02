@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Header from './header';
 
 function BookingForm(props){
     const [date, setDate] = useState("");
@@ -16,6 +17,10 @@ function BookingForm(props){
         props.submitForm(e);
     }
     return(
+        <>
+        <Header />
+        <div class="image-background">
+        <div class="form-container">
         <form onSubmit={handleSubmit}>
             <label htmlFor="res-date">Choose a date</label>
             <input type="date" name="res-date" id="res-date" required value={date} onChange={(e) => handleChange(e.target.value)}/>
@@ -31,10 +36,12 @@ function BookingForm(props){
                 <option value="birthday">Birthday</option>
                 <option value="anniversary">Anniversary</option>
             </select>
-            <input type="submit" value="Make Your Reservation"/>
+            <input class="submit-button" type="submit" value="Make Your Reservation"/>
 
         </form>
-
+        </div>
+        </div>
+        </>
     );
 };
 

@@ -3,6 +3,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import Header from "./header";
 import Bookings from "./Bookings";
 import Confirmation from "./confirmation";
+import Home from "./Home";
 
 function Main (){
 
@@ -46,7 +47,7 @@ function Main (){
     return (
         <main>
             <Routes>
-                <Route path='/' element={<Header/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/booking' element={<Bookings availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
                 <Route path='/confirmed' element={<Confirmation/>}/>
             </Routes>

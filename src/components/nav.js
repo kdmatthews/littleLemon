@@ -12,13 +12,13 @@ function Nav() {
         </ul>
        <ul className="navlinks">
         <li>
-            <a href="">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-            <a href="">Reserve Dining</a>
+            <a href="/booking">Reserve Dining</a>
         </li>
         <li>
-            <a href="">Submit Dining Reservation</a>
+            <a href="/confirmed">Submit Dining Reservation</a>
         </li>
        </ul>
       </nav>
